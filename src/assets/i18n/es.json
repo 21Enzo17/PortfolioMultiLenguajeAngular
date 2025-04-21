@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "about": "Sobre Mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Tecnologías",
+    "contact": "Contacto",
+    "downloadCV": "Descargar CV",
+    "generating": "Generando..."
+  },
+  "hero": {
+    "bio": "Soy un <span class=\"font-bold\">Desarrollador Full Stack</span>, con sólida experiencia en <span class=\"font-bold\">Angular y Java</span>. Experto en el desarrollo de aplicaciones eficientes y seguras utilizando tecnologías como <span class=\"font-bold\">Spring Boot y Spring Security.</span> <br class=\"hidden md:block\"> Me caracterizo por un enfoque en la <span class=\"font-bold\">resolución de problemas complejos</span> y la colaboración en equipo. Busco enfrentar nuevos desafíos profesionales en entornos dinámicos y orientados a la innovación."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "items": [
+      {
+        "jobTitle": "Desarrollador Full Stack Jr",
+        "company": "Agua Potable de Jujuy",
+        "period": "Agosto 2023 - Presente",
+        "location": "Jujuy · Presencial",
+        "sections": [
+          {
+            "type": "projects",
+            "title": "💻 Desarrollo de Sistemas:",
+            "icon": "💻",
+            "content": [
+              {
+                "title": "Página Web Corporativa:",
+                "descriptions": [
+                  "- Desarrollo completo con Java y Angular",
+                  "- Blog de noticias e intranet con backend propio"
+                ]
+              },
+              {
+                "title": "API de Facturas:",
+                "descriptions": [
+                  "- Sistema para obtener y visualizar facturas de cuentas de agua",
+                  "- Backend en Java con integración a base de datos"
+                ]
+              },
+              {
+                "title": "Sistema de Gestión de Contratos:",
+                "descriptions": [
+                  "- Desarrollo completo en Genexus",
+                  "- Automatización de procesos de creación y seguimiento"
+                ]
+              },
+              {
+                "title": "Sistema de Liquidaciones:",
+                "descriptions": [
+                  "- Módulo para cálculos internos desarrollado en Java"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "title": "🔧 Soporte Técnico Líder:",
+            "icon": "🔧",
+            "content": [
+              "Resolución de incidentes en hardware y software",
+              "Mantenimiento de redes LAN/WAN de la empresa",
+              "Soporte a usuarios finales de los sistemas desarrollados",
+              "Configuración de equipos de red (switches, routers)"
+            ]
+          },
+          {
+            "type": "technologies",
+            "title": "⚙️ Stack Tecnológico:",
+            "icon": "⚙️",
+            "content": ["Java", "Angular", "Genexus", "Spring Boot", "MySQL", "Node.js", "Redes LAN/WAN"]
+          },
+          {
+            "type": "list",
+            "title": "🤝 Colaboraciones:",
+            "icon": "🤝",
+            "content": [
+              "Desarrollo de Chatbot para WhatsApp usando librería de Leifer Mendez",
+              "Integración de sistemas con equipos de cobranza y atención al cliente"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "items": [
+      {
+        "name": "Generador de Señales Digitales",
+        "description": "Este proyecto es un generador de señales digitales que permite visualizar diferentes tipos de codificación de señales, incluyendo NRZ-L, NRZ-I, Manchester, Manchester Diferencial, BFSK, BPSK y BASK.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "demoUrl": "#",
+        "githubUrl": "#"
+      },
+      {
+        "name": "Despliegue y Monitoreo de \"Asist.io\"",
+        "description": "El proyecto consistió en la implementación de un entorno completo para la aplicación web \"Asist.io\", diseñada para gestionar la asistencia estudiantil.",
+        "technologies": ["Docker", "GitHub", "Prometheus"],
+        "docsUrl": "#",
+        "githubUrl": "#"
+      },
+      {
+        "name": "Portfolio Personal",
+        "description": "Sitio web personal con diseño neumórfico para mostrar proyectos y habilidades.",
+        "technologies": ["React", "Next.js", "Tailwind CSS"],
+        "demoUrl": "#",
+        "githubUrl": "#"
+      }
+    ],
+    "buttons": {
+      "demo": "Demo",
+      "github": "GitHub",
+      "docs": "Documentación"
+    }
+  },
+  "skills": {
+    "title": "Tecnologías y Habilidades",
+    "frontend": {
+      "title": "Frontend",
+      "items": [
+        { "name": "HTML5", "icon": "logos:html-5" },
+        { "name": "CSS3", "icon": "logos:css-3" },
+        { "name": "JavaScript", "icon": "logos:javascript" },
+        { "name": "TypeScript", "icon": "logos:typescript-icon" },
+        { "name": "Vue", "icon": "logos:vue" },
+        { "name": "Angular", "icon": "logos:angular-icon" },
+        { "name": "React", "icon": "logos:react" },
+        { "name": "TailwindCSS", "icon": "logos:tailwindcss-icon" }
+      ]
+    },
+    "backend": {
+      "title": "Backend",
+      "items": [
+        { "name": "Java", "icon": "logos:java" },
+        { "name": "Spring", "icon": "logos:spring-icon" },
+        { "name": "Node.js", "icon": "logos:nodejs-icon" },
+        { "name": "Python", "icon": "logos:python" },
+        { "name": "Genexus", "icon": "carbon:application" },
+        { "name": "Express", "icon": "simple-icons:express" }
+      ]
+    },
+    "databases": {
+      "title": "Bases de Datos",
+      "items": [
+        { "name": "MySQL", "icon": "logos:mysql" },
+        { "name": "PostgreSQL", "icon": "logos:postgresql" },
+        { "name": "MongoDB", "icon": "logos:mongodb-icon" }
+      ]
+    },
+    "devops": {
+      "title": "DevOps & Herramientas",
+      "items": [
+        { "name": "Git", "icon": "logos:git-icon" },
+        { "name": "Docker", "icon": "logos:docker-icon" },
+        { "name": "Linux", "icon": "logos:linux-tux" },
+        { "name": "VS Code", "icon": "logos:visual-studio-code" },
+        { "name": "Terminal", "icon": "carbon:terminal" },
+        { "name": "Redes", "icon": "carbon:network-4" }
+      ]
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Contacto",
+      "location": "Jujuy, Argentina"
+    },
+    "quickLinks": {
+      "title": "Navegación rápida",
+      "about": "Sobre Mí",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "skills": "Tecnologías"
+    },
+    "connect": {
+      "title": "Conectémonos"
+    },
+    "copyright": "© 2025 Enzo Meneghini. Todos los derechos reservados."
+  }
+}

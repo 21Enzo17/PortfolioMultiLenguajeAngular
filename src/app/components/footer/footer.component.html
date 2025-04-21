@@ -1,0 +1,132 @@
+<footer id="contact" class="mt-24 pt-16 pb-8 px-4 relative z-10">
+  <div class="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-transparent to-background/50 pointer-events-none"></div>
+  <div class="max-w-6xl mx-auto">
+    <!-- Main Footer Content -->
+    <div class="neumorphic rounded-xl p-8 md:p-10 relative overflow-hidden opacity-0 transform translate-y-5"
+         [ngClass]="{'opacity-100 translate-y-0': true}"
+         style="transition: opacity 0.5s ease, transform 0.5s ease">
+      <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-blue-500"></div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <!-- Column 1: Contact & Info -->
+        <div class="flex flex-col space-y-4">
+          <h3 class="text-xl font-bold mb-4 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2 text-purple-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span class="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+              {{ 'footer.contact.title' | translate }}
+            </span>
+          </h3>
+          <a href="mailto:enzo.meneghini@hotmail.com" class="flex items-center hover:text-purple-500 transition-colors group">
+            <span class="inline-block w-6 mr-2">📧</span>
+            <span class="group-hover:underline">enzo.meneghini&#64;hotmail.com</span>
+          </a>
+          <a href="https://wa.me/+543884600584" class="flex items-center hover:text-purple-500 transition-colors group">
+            <span class="inline-block w-6 mr-2">📱</span>
+            <span class="group-hover:underline">+54 388 4600584</span>
+          </a>
+          <p class="flex items-center">
+            <span class="inline-block w-6 mr-2">📍</span>
+            {{ 'footer.contact.location' | translate }}
+          </p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="flex flex-col space-y-4">
+          <h3 class="text-xl font-bold mb-4 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2 text-blue-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            <span class="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+              {{ 'footer.quickLinks.title' | translate }}
+            </span>
+          </h3>
+          <div class="grid grid-cols-2 gap-2">
+            <a href="#" class="hover:text-purple-500 transition-colors group">
+              <span class="group-hover:underline">{{ 'footer.quickLinks.about' | translate }}</span>
+            </a>
+            <a href="#experience" class="hover:text-purple-500 transition-colors group">
+              <span class="group-hover:underline">{{ 'footer.quickLinks.experience' | translate }}</span>
+            </a>
+            <a href="#projects" class="hover:text-purple-500 transition-colors group">
+              <span class="group-hover:underline">{{ 'footer.quickLinks.projects' | translate }}</span>
+            </a>
+            <a href="#skills" class="hover:text-purple-500 transition-colors group">
+              <span class="group-hover:underline">{{ 'footer.quickLinks.skills' | translate }}</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 3: Social & CV -->
+        <div class="flex flex-col space-y-4">
+          <h3 class="text-xl font-bold mb-4 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2 text-purple-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            <span class="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+              {{ 'footer.connect.title' | translate }}
+            </span>
+          </h3>
+
+          <!-- Social Icons -->
+          <div class="flex flex-wrap gap-4">
+            <a href="https://www.linkedin.com/in/enzo-meneghini/" target="_blank" aria-label="LinkedIn Profile" class="social-icon hover:scale-110 active:scale-95" rel="noreferrer" style="transition: transform 0.2s ease">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="https://github.com/21Enzo17" target="_blank" aria-label="GitHub Profile" class="social-icon hover:scale-110 active:scale-95" rel="noreferrer" style="transition: transform 0.2s ease">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+            <a href="mailto:enzo.meneghini@hotmail.com" aria-label="Email" class="social-icon hover:scale-110 active:scale-95" style="transition: transform 0.2s ease">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+            <a href="https://wa.me/+543884600584" target="_blank" aria-label="WhatsApp" class="social-icon hover:scale-110 active:scale-95" rel="noreferrer" style="transition: transform 0.2s ease">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </a>
+            <a href="assets/ENZO MENEGHINI.pdf" target="_blank" aria-label="Download CV" class="social-icon hover:scale-110 active:scale-95" rel="noreferrer" style="transition: transform 0.2s ease">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="my-8 h-px bg-gradient-to-r from-purple-500/20 via-blue-500/20 to-purple-500/20"></div>
+
+      <!-- Bottom Footer -->
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <p class="text-sm mb-4 md:mb-0 text-foreground/70">{{ 'footer.copyright' | translate }}</p>
+
+        <!-- Back to Top Button -->
+        <button #backToTopButton class="neumorphic-button rounded-full p-3 bg-gradient-to-br from-purple-500/10 to-blue-500/10" aria-label="Back to top">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "about": "About Me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Technologies",
+    "contact": "Contact",
+    "downloadCV": "Download CV",
+    "generating": "Generating..."
+  },
+  "hero": {
+    "bio": "I am a <span class=\"font-bold\">Full Stack Developer</span>, with solid experience in <span class=\"font-bold\">Angular and Java</span>. Expert in developing efficient and secure applications using technologies such as <span class=\"font-bold\">Spring Boot and Spring Security.</span> <br class=\"hidden md:block\"> I am characterized by a focus on <span class=\"font-bold\">solving complex problems</span> and team collaboration. I seek to face new professional challenges in dynamic and innovation-oriented environments."
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "jobTitle": "Jr Full Stack Developer",
+        "company": "Agua Potable de Jujuy",
+        "period": "August 2023 - Present",
+        "location": "Jujuy · On-site",
+        "sections": [
+          {
+            "type": "projects",
+            "title": "💻 Systems Development:",
+            "icon": "💻",
+            "content": [
+              {
+                "title": "Corporate Website:",
+                "descriptions": [
+                  "- Complete development with Java and Angular",
+                  "- News blog and intranet with custom backend"
+                ]
+              },
+              {
+                "title": "Invoices API:",
+                "descriptions": [
+                  "- System to obtain and visualize water account invoices",
+                  "- Java backend with database integration"
+                ]
+              },
+              {
+                "title": "Contract Management System:",
+                "descriptions": [
+                  "- Complete development in Genexus",
+                  "- Automation of creation and tracking processes"
+                ]
+              },
+              {
+                "title": "Payment System:",
+                "descriptions": [
+                  "- Module for internal calculations developed in Java"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "title": "🔧 Lead Technical Support:",
+            "icon": "🔧",
+            "content": [
+              "Resolution of hardware and software incidents",
+              "Maintenance of company LAN/WAN networks",
+              "End-user support for developed systems",
+              "Network equipment configuration (switches, routers)"
+            ]
+          },
+          {
+            "type": "technologies",
+            "title": "⚙️ Technology Stack:",
+            "icon": "⚙️",
+            "content": ["Java", "Angular", "Genexus", "Spring Boot", "MySQL", "Node.js", "LAN/WAN Networks"]
+          },
+          {
+            "type": "list",
+            "title": "🤝 Collaborations:",
+            "icon": "🤝",
+            "content": [
+              "WhatsApp Chatbot development using Leifer Mendez library",
+              "System integration with collection and customer service teams"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Projects",
+    "items": [
+      {
+        "name": "Digital Signal Generator",
+        "description": "This project is a digital signal generator that allows visualizing different types of signal encoding, including NRZ-L, NRZ-I, Manchester, Differential Manchester, BFSK, BPSK, and BASK.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "demoUrl": "#",
+        "githubUrl": "#"
+      },
+      {
+        "name": "Deployment and Monitoring of \"Asist.io\"",
+        "description": "The project consisted of implementing a complete environment for the \"Asist.io\" web application, designed to manage student attendance.",
+        "technologies": ["Docker", "GitHub", "Prometheus"],
+        "docsUrl": "#",
+        "githubUrl": "#"
+      },
+      {
+        "name": "Personal Portfolio",
+        "description": "Personal website with neumorphic design to showcase projects and skills.",
+        "technologies": ["React", "Next.js", "Tailwind CSS"],
+        "demoUrl": "#",
+        "githubUrl": "#"
+      }
+    ],
+    "buttons": {
+      "demo": "Demo",
+      "github": "GitHub",
+      "docs": "Documentation"
+    }
+  },
+  "skills": {
+    "title": "Technologies and Skills",
+    "frontend": {
+      "title": "Frontend",
+      "items": [
+        { "name": "HTML5", "icon": "logos:html-5" },
+        { "name": "CSS3", "icon": "logos:css-3" },
+        { "name": "JavaScript", "icon": "logos:javascript" },
+        { "name": "TypeScript", "icon": "logos:typescript-icon" },
+        { "name": "Vue", "icon": "logos:vue" },
+        { "name": "Angular", "icon": "logos:angular-icon" },
+        { "name": "React", "icon": "logos:react" },
+        { "name": "TailwindCSS", "icon": "logos:tailwindcss-icon" }
+      ]
+    },
+    "backend": {
+      "title": "Backend",
+      "items": [
+        { "name": "Java", "icon": "logos:java" },
+        { "name": "Spring", "icon": "logos:spring-icon" },
+        { "name": "Node.js", "icon": "logos:nodejs-icon" },
+        { "name": "Python", "icon": "logos:python" },
+        { "name": "Genexus", "icon": "carbon:application" },
+        { "name": "Express", "icon": "simple-icons:express" }
+      ]
+    },
+    "databases": {
+      "title": "Databases",
+      "items": [
+        { "name": "MySQL", "icon": "logos:mysql" },
+        { "name": "PostgreSQL", "icon": "logos:postgresql" },
+        { "name": "MongoDB", "icon": "logos:mongodb-icon" }
+      ]
+    },
+    "devops": {
+      "title": "DevOps & Tools",
+      "items": [
+        { "name": "Git", "icon": "logos:git-icon" },
+        { "name": "Docker", "icon": "logos:docker-icon" },
+        { "name": "Linux", "icon": "logos:linux-tux" },
+        { "name": "VS Code", "icon": "logos:visual-studio-code" },
+        { "name": "Terminal", "icon": "carbon:terminal" },
+        { "name": "Networks", "icon": "carbon:network-4" }
+      ]
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact",
+      "location": "Jujuy, Argentina"
+    },
+    "quickLinks": {
+      "title": "Quick Navigation",
+      "about": "About Me",
+      "experience": "Experience",
+      "projects": "Projects",
+      "skills": "Technologies"
+    },
+    "connect": {
+      "title": "Let's Connect"
+    },
+    "copyright": "© 2025 Enzo Meneghini. All rights reserved."
+  }
+}
