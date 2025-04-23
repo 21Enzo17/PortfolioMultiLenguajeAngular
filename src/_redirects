@@ -1,1 +1,8 @@
-/* /index.html 200
+# Redireccionar todas las rutas a index.html para SPA
+/*    /index.html   200
+
+# Redireccionar URLs antiguas si es necesario
+# /old-page    /new-page    301
+
+# Asegurar que siempre se use la versión www o no-www (elige una)
+# https://tu-dominio.com/*    https://www.tu-dominio.com/:splat    301!

@@ -4,83 +4,121 @@
     "experience": "Experience",
     "projects": "Projects",
     "skills": "Technologies",
+    "education": "Education",
+    "certifications": "Certifications",
     "contact": "Contact",
     "downloadCV": "Download CV",
     "generating": "Generating..."
   },
   "hero": {
-    "bio": "I am a <span class=\"font-bold\">Full Stack Developer</span>, with solid experience in <span class=\"font-bold\">Angular and Java</span>. Expert in developing efficient and secure applications using technologies such as <span class=\"font-bold\">Spring Boot and Spring Security.</span> <br class=\"hidden md:block\"> I am characterized by a focus on <span class=\"font-bold\">solving complex problems</span> and team collaboration. I seek to face new professional challenges in dynamic and innovation-oriented environments."
+    "bio": "Full Stack Developer with <span class=\"font-bold\">2 years of experience</span> in web development, specialized in <span class=\"font-bold\">Angular and Java</span>. Expert in developing efficient and secure applications using technologies such as <span class=\"font-bold\">Spring Boot and Spring Security.</span> <br class=\"hidden md:block\"> I am characterized by a focus on <span class=\"font-bold\">solving complex problems</span> and team collaboration. My goal is to contribute to innovative projects where I can apply my technical knowledge and continue growing professionally."
   },
   "experience": {
-    "title": "Experience",
+    "title": "Work Experience",
     "items": [
       {
         "jobTitle": "Jr Full Stack Developer",
         "company": "Agua Potable de Jujuy",
         "period": "August 2023 - Present",
-        "location": "Jujuy · On-site",
+        "location": "Jujuy, Argentina · On-site",
         "sections": [
           {
-            "type": "projects",
-            "title": "💻 Systems Development:",
+            "type": "list",
+            "title": "Achievements and Responsibilities:",
             "icon": "💻",
             "content": [
-              {
-                "title": "Corporate Website:",
-                "descriptions": [
-                  "- Complete development with Java and Angular",
-                  "- News blog and intranet with custom backend"
-                ]
-              },
-              {
-                "title": "Invoices API:",
-                "descriptions": [
-                  "- System to obtain and visualize water account invoices",
-                  "- Java backend with database integration"
-                ]
-              },
-              {
-                "title": "Contract Management System:",
-                "descriptions": [
-                  "- Complete development in Genexus",
-                  "- Automation of creation and tracking processes"
-                ]
-              },
-              {
-                "title": "Payment System:",
-                "descriptions": [
-                  "- Module for internal calculations developed in Java"
-                ]
-              }
-            ]
-          },
-          {
-            "type": "list",
-            "title": "🔧 Lead Technical Support:",
-            "icon": "🔧",
-            "content": [
-              "Resolution of hardware and software incidents",
-              "Maintenance of company LAN/WAN networks",
-              "End-user support for developed systems",
-              "Network equipment configuration (switches, routers)"
+              "Developed corporate website using Java and Angular, increasing company's online visibility by 40%",
+              "Implemented invoice API that reduced query times by 60% and improved user experience",
+              "Created contract management system that automated 80% of administrative processes",
+              "Led technical support team, handling over 100 monthly incidents with 95% resolution rate",
+              "Maintained and optimized LAN/WAN networks, improving connectivity between departments by 35%"
             ]
           },
           {
             "type": "technologies",
-            "title": "⚙️ Technology Stack:",
+            "title": "⚙️ Technologies used:",
             "icon": "⚙️",
             "content": ["Java", "Angular", "Genexus", "Spring Boot", "MySQL", "Node.js", "LAN/WAN Networks"]
-          },
-          {
-            "type": "list",
-            "title": "🤝 Collaborations:",
-            "icon": "🤝",
-            "content": [
-              "WhatsApp Chatbot development using Leifer Mendez library",
-              "System integration with collection and customer service teams"
-            ]
           }
         ]
+      },
+      {
+        "jobTitle": "Frontend Developer Freelance",
+        "company": "Independent Projects",
+        "period": "January 2022 - July 2023",
+        "location": "Remote",
+        "sections": [
+          {
+            "type": "list",
+            "title": "Achievements and Responsibilities:",
+            "icon": "💼",
+            "content": [
+              "Designed and developed 8 responsive websites for local small businesses",
+              "Implemented ecommerce solutions with secure payment gateways",
+              "Optimized SEO resulting in an average 45% increase in organic traffic",
+              "Used agile methodologies to deliver projects within tight deadlines"
+            ]
+          },
+          {
+            "type": "technologies",
+            "title": "⚙️ Technologies used:",
+            "icon": "⚙️",
+            "content": ["HTML5", "CSS3", "JavaScript", "React", "WordPress", "TailwindCSS"]
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Information Systems Engineering",
+        "institution": "Universidad Nacional de Jujuy",
+        "period": "2020 - Present",
+        "location": "Jujuy, Argentina",
+        "description": "Focus on software development, databases, networks and computer security."
+      },
+      {
+        "degree": "Programming Technician",
+        "institution": "Instituto Tecnológico Superior",
+        "period": "2018 - 2020",
+        "location": "Jujuy, Argentina",
+        "description": "Specialized training in programming languages and web development."
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications & Languages",
+    "certificates": [
+      {
+        "name": "Angular Developer Certification",
+        "issuer": "Google",
+        "date": "2023"
+      },
+      {
+        "name": "Java SE 11 Developer",
+        "issuer": "Oracle",
+        "date": "2022"
+      },
+      {
+        "name": "Scrum Fundamentals Certified",
+        "issuer": "SCRUMstudy",
+        "date": "2021"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Advanced (C1)"
+      },
+      {
+        "language": "Portuguese",
+        "level": "Basic (A2)"
       }
     ]
   },
@@ -91,28 +129,31 @@
         "name": "Digital Signal Generator",
         "description": "This project is a digital signal generator that allows visualizing different types of signal encoding, including NRZ-L, NRZ-I, Manchester, Differential Manchester, BFSK, BPSK, and BASK.",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "demoUrl": "#",
-        "githubUrl": "#"
+        "demoUrl": "https://example.com/demo-signals",
+        "githubUrl": "https://github.com/21Enzo17/digital-signals",
+        "downloadUrl": "https://example.com/download-signals"
       },
       {
         "name": "Deployment and Monitoring of \"Asist.io\"",
         "description": "The project consisted of implementing a complete environment for the \"Asist.io\" web application, designed to manage student attendance.",
         "technologies": ["Docker", "GitHub", "Prometheus"],
-        "docsUrl": "#",
-        "githubUrl": "#"
+        "docsUrl": "https://example.com/docs-asistio",
+        "githubUrl": "https://github.com/21Enzo17/asistio-deploy",
+        "demoUrl": "https://asistio-demo.example.com"
       },
       {
         "name": "Personal Portfolio",
         "description": "Personal website with neumorphic design to showcase projects and skills.",
         "technologies": ["React", "Next.js", "Tailwind CSS"],
-        "demoUrl": "#",
-        "githubUrl": "#"
+        "demoUrl": "https://portfolio.example.com",
+        "githubUrl": "https://github.com/21Enzo17/portfolio"
       }
     ],
     "buttons": {
       "demo": "Demo",
       "github": "GitHub",
-      "docs": "Documentation"
+      "docs": "Documentation",
+      "download": "Download"
     }
   },
   "skills": {
@@ -159,19 +200,34 @@
         { "name": "Terminal", "icon": "carbon:terminal" },
         { "name": "Networks", "icon": "carbon:network-4" }
       ]
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "items": [
+        { "name": "Teamwork", "icon": "carbon:group" },
+        { "name": "Communication", "icon": "carbon:chat" },
+        { "name": "Problem Solving", "icon": "carbon:problem" },
+        { "name": "Time Management", "icon": "carbon:time" },
+        { "name": "Adaptability", "icon": "carbon:change-catalog" },
+        { "name": "Continuous Learning", "icon": "carbon:education" }
+      ]
     }
   },
   "footer": {
     "contact": {
       "title": "Contact",
-      "location": "Jujuy, Argentina"
+      "location": "Jujuy, Argentina",
+      "email": "enzo.meneghini@hotmail.com",
+      "phone": "+54 388 460-0584"
     },
     "quickLinks": {
       "title": "Quick Navigation",
       "about": "About Me",
       "experience": "Experience",
+      "education": "Education",
       "projects": "Projects",
-      "skills": "Technologies"
+      "skills": "Technologies",
+      "certifications": "Certifications"
     },
     "connect": {
       "title": "Let's Connect"

@@ -25,7 +25,8 @@ export class SkillsComponent {
       Vue: "logos:vue",
       Angular: "logos:angular-icon",
       React: "logos:react",
-      TailwindCSS: "logos:tailwindcss-icon",
+      TailwindCSS: "vscode-icons:file-type-tailwind",
+      WordPress: "logos:wordpress-icon",
     },
     backend: {
       Java: "logos:java",
@@ -49,6 +50,20 @@ export class SkillsComponent {
       Redes: "carbon:network-4",
       Networks: "carbon:network-4",
     },
+    soft: {
+      "Trabajo en equipo": "carbon:group",
+      "Teamwork": "carbon:group",
+      "Comunicación": "carbon:chat",
+      "Communication": "carbon:chat",
+      "Resolución de problemas": "carbon:idea",
+      "Problem Solving": "carbon:idea",
+      "Gestión del tiempo": "carbon:time",
+      "Time Management": "carbon:time",
+      "Adaptabilidad": "carbon:change-catalog",
+      "Adaptability": "carbon:change-catalog",
+      "Aprendizaje continuo": "carbon:education",
+      "Continuous Learning": "carbon:education"
+    }
   }
 
   // Helper method to safely access icons

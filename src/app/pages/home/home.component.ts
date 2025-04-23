@@ -3,6 +3,8 @@ import { CommonModule } from "@angular/common"
 import { NavbarComponent } from "@app/components/navbar/navbar.component"
 import { HeroComponent } from "@app/components/hero/hero.component"
 import { ExperienceComponent } from "@app/components/experience/experience.component"
+import { EducationComponent } from "@app/components/education/education.component"
+import { CertificationsComponent } from "@app/components/certifications/certifications.component"
 import { ProjectsComponent } from "@app/components/projects/projects.component"
 import { SkillsComponent } from "@app/components/skills/skills.component"
 import { FooterComponent } from "@app/components/footer/footer.component"
@@ -19,8 +21,10 @@ import type { Subscription } from "rxjs"
     NavbarComponent,
     HeroComponent,
     ExperienceComponent,
+    EducationComponent,
     ProjectsComponent,
     SkillsComponent,
+    CertificationsComponent,
     FooterComponent,
     BackgroundAnimationComponent,
     LanguageSwitchIndicatorComponent,

@@ -56,7 +56,9 @@ export class ExperienceComponent {
     "Redes LAN/WAN": "carbon:network-4",
     "LAN/WAN Networks": "carbon:network-4",
     HTML: "logos:html-5",
+    HTML5: "logos:html-5",
     CSS: "logos:css-3",
+    CSS3: "logos:css-3",
     JavaScript: "logos:javascript",
     Docker: "logos:docker-icon",
     GitHub: "mdi:github",
@@ -64,5 +66,7 @@ export class ExperienceComponent {
     React: "logos:react",
     "Next.js": "logos:nextjs-icon",
     "Tailwind CSS": "logos:tailwindcss-icon",
+    TailwindCSS: "vscode-icons:file-type-tailwind",
+    WordPress: "logos:wordpress-icon"
   }
 }

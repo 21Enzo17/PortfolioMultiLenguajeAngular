@@ -1,6 +1,8 @@
-import { Component, type ElementRef, ViewChild, type AfterViewInit, type OnDestroy, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core"
+import { Component, type ElementRef, ViewChild, type AfterViewInit, type OnDestroy, CUSTOM_ELEMENTS_SCHEMA, inject, OnInit } from "@angular/core"
 import { CommonModule } from "@angular/common"
 import { TranslateModule } from "@ngx-translate/core"
+import { LanguageService } from "@app/services/language.service"
+import { CvGeneratorService } from "@app/services/cv-generator.service"
 
 @Component({
   selector: "app-footer",
@@ -10,8 +12,20 @@ import { TranslateModule } from "@ngx-translate/core"
   styleUrls: ["./footer.component.scss"],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class FooterComponent implements AfterViewInit, OnDestroy {
+export class FooterComponent implements AfterViewInit, OnDestroy, OnInit {
   @ViewChild("backToTopButton") backToTopButton!: ElementRef
+  language = "es"
+  isGeneratingCV = false
+
+  private languageService = inject(LanguageService)
+  private cvGeneratorService = inject(CvGeneratorService)
+
+  ngOnInit() {
+    // Suscribirse a cambios de idioma
+    this.languageService.currentLanguage$.subscribe((lang) => {
+      this.language = lang
+    })
+  }
 
   ngAfterViewInit() {
     // Asegurarse de que el botón tenga el evento onClick
@@ -26,6 +40,24 @@ export class FooterComponent implements AfterViewInit, OnDestroy {
       top: 0,
       behavior: "smooth",
     })
+  }
+
+  /**
+   * Genera y descarga el CV en formato PDF basado en los datos actuales
+   */
+  async generateCV() {
+    if (this.isGeneratingCV) {
+      return; // Evitar múltiples clics
+    }
+    
+    try {
+      this.isGeneratingCV = true;
+      await this.cvGeneratorService.generateCV();
+    } catch (error) {
+      console.error('Error al generar el CV:', error);
+    } finally {
+      this.isGeneratingCV = false;
+    }
   }
 
   ngOnDestroy() {
